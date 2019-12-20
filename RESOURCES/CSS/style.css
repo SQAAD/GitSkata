@@ -1,0 +1,294 @@
+/*  Universal Styling APPLIES HERE      */
+*{
+  margin:0;
+  padding:0;
+  font-family:'Josefin Sans', sans-serif;
+  font-size:16px;
+}
+
+html{
+  root element rem;
+  font-size:1px;
+}
+
+body{
+  background-color:lightgreen;
+  color:#fff;
+  background-color:black;
+}
+
+
+html body div.container-one{
+  width:1200rem;
+  height:700rem;
+  color:#fff;
+/*  border:12rem solid gray;*/
+  z-index:1;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  top:180px;
+  display:flex;
+
+ }
+
+ span.h2{
+   font-size:32px;
+ }
+
+ span.h4{
+   font-size:20rem;
+
+ }
+
+/********************************************/
+/* H e a d e r  BEGIN */
+header{
+  background-color:black;
+  color:#fff;
+  width:100%;
+  z-index:2;
+  position:fixed;
+  display:flex;
+  font-size:16px;
+  border-bottom:2rem solid #fff;
+  opacity:0.8;
+}
+
+
+header .image-container{
+  /*border:1rem solid #fff;*/
+  margin:2% 0% 2% 2%;
+
+}
+
+header nav{
+/*  border:1rem solid #fff; */
+  display:flex;
+  width:50%;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-around;
+  margin-left:20%;
+}
+
+header nav a{
+  color:#fff;
+  text-decoration:none;
+}
+
+
+/* H e a d er  END */
+
+
+/********************************************/
+
+/*            Container - One  BEGIN */
+
+
+html body div.one{
+  background-color:red;
+  background-image:url("../media/background.jpg");
+  background-size:cover;
+  background-position:center;
+  flex-flow:column nowrap;
+  align-items:center;
+  justify-content:center;
+}
+
+div.flex-container{
+  background-color:black;
+
+  height:15%;
+  width:100%;
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+
+}
+
+
+
+
+/*            Container One END        */
+
+/********************************************/
+
+
+
+/* Container Two BEGIN  */
+
+html body div.two{
+  margin-top:5%;
+  flex-direction:column;
+  height:700rem;
+  flex-wrap:wrap;
+justify-content:space-between;
+font-size:10px;
+
+}
+
+
+.flex-container-one{
+  background-color:black;
+  /*border:10rem solid #fff;*/
+  height:10%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+
+
+
+}
+
+.flex-container-two{
+  background-color:black;
+/*  border:2rem solid #fff;*/
+    flex-wrap:wrap;
+    display:flex;
+  width:86%;
+  margin-left:auto;
+  margin-right:auto;
+  /*justify-content:space-around;*/
+
+
+}
+
+div.boxaki{
+  width:300rem;
+  height:300rem;
+/*  border:2rem solid red;*/
+  margin-right:5%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+
+
+.section-one{
+/*  border:10rem dashed purple;*/
+  display:flex;
+  margin:0 auto;
+  width:100%;
+  height:300rem;
+
+
+}
+
+.section-two{
+  width:100%;
+  height:300rem;
+/*  border:10rem dashed gold; */
+  display:flex;
+  margin-left:auto;
+  margin-right:auto;
+  justify-content:center;
+}
+/* Container Two END                 */
+
+/********************************************/
+
+
+
+
+
+
+/* Container Three BEGIN */
+
+html body div.three{
+  margin-top:5%;
+  flex-flow:column;
+  background-image:url("../media/locations.jpg");
+  background-size:cover;
+  background-position:center;
+
+}
+
+
+
+
+.flex-containaros-one{
+  width:100%;
+  height:20%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  top:10%;
+
+}
+
+.flex-containaros-two{
+  /*background-color:blue;*/
+  width:100%;
+  height:80%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+
+}
+
+.boxarios{
+  /*border:4rem solid black;*/
+  width:20%;
+  height:50%;
+  background-color:black;
+  flex-grow:1;
+  flex-grow:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.boxarios span.bold{
+  font-weight:800;
+}
+
+/* Container Three END */
+
+/********************************************/
+
+/* Footer BEGIN */
+
+html body div.footer{
+  flex-flow:column nowrap;
+  height:300rem;
+}
+
+.ena{
+  height:60%;
+  width:auto;
+  background-color:black;
+/*  border:2rem solid black;*/
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+
+}
+
+.dyo{
+  height:40%;
+  width:auto;
+  background-color:black;
+/*  border:2rem solid gray;*/
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+}
+
+
+
+
+
+/* Footer END    */
